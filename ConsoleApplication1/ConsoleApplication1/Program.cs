@@ -13,9 +13,9 @@ namespace ConsoleApplication1
         {
 
             string userName;
-            Console.WriteLine("Escriba el nopmbre de usuario");
+            Console.WriteLine("Escriba el nopmbre de usuario: ");
             userName = Console.ReadLine();
-            Console.WriteLine("Hello Word...");
+            Console.WriteLine("Hello Word," + userName);
             Console.ReadLine();
 
         }
